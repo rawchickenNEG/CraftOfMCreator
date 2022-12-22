@@ -11,6 +11,9 @@ import net.minecraftforge.registries.RegistryObject;
 public class ItemRegistry {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CraftOfMCreator.MOD_ID);
+    public static final RegistryObject<Item> MCREATORIUM_BLOCK = ITEMS.register("mcreatorium_block", () -> new ItemNameBlockItem(BlockRegistry.MCREATORIUM_BLOCK.get(), defaultBuilder()));
+    public static final RegistryObject<Item> MCREATORIUM_ORE = ITEMS.register("mcreatorium_ore", () -> new ItemNameBlockItem(BlockRegistry.MCREATORIUM_ORE.get(), defaultBuilder()));
+    public static final RegistryObject<Item> DEEPSLATE_MCREATORIUM_ORE = ITEMS.register("deepslate_mcreatorium_ore", () -> new ItemNameBlockItem(BlockRegistry.DEEPSLATE_MCREATORIUM_ORE.get(), defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_INGOT = ITEMS.register("mcreatorium_ingot", () -> new Item(defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_RAW = ITEMS.register("raw_mcreatorium", () -> new Item(defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_HELMET = ITEMS.register("mcreatorium_helmet", () -> new ArmorItem(ArmorTier.MCREATORIUM, EquipmentSlot.HEAD, defaultBuilder()));

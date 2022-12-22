@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "craft_of_mcreator:mcreatorium_ore"
+  }
+}
