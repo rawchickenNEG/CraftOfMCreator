@@ -25,5 +25,5 @@ public class CraftOfMCreator {
             return new ItemStack(Items.STONE);
         }
     };
-    public static final String MOD_ID = "craft_of_mcreator";
+    public static final String MOD_ID = "assets/craft_of_mcreator";
 }
