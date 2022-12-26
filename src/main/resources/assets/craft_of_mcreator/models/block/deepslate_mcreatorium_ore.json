@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "craft_of_mcreator:deepslate_mcreatorium_ore"
+    "all": "craft_of_mcreator:block/deepslate_mcreatorium_ore"
   }
 }

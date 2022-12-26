@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "@": {
+      "item": "craft_of_mcreator:mcreatorium_ingot"
+    },
+    "%": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_core",
+    "count": 2
+  }
+}

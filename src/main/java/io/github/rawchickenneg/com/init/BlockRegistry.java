@@ -16,10 +16,10 @@ public class BlockRegistry {
         return new CommonBlocks(Block.Properties.of(Material.METAL).strength(5.0F, 6F).requiresCorrectToolForDrops().sound(SoundType.METAL));
     });
     public static final RegistryObject<Block> MCREATORIUM_ORE = BLOCKS.register("mcreatorium_ore", () -> {
-        return new Block(Block.Properties.of(Material.METAL).strength(2.0F, 6F).requiresCorrectToolForDrops().sound(SoundType.METAL));
+        return new Block(Block.Properties.of(Material.STONE).strength(2.0F, 6F).requiresCorrectToolForDrops().sound(SoundType.STONE));
     });
     public static final RegistryObject<Block> DEEPSLATE_MCREATORIUM_ORE = BLOCKS.register("deepslate_mcreatorium_ore", () -> {
-        return new Block(Block.Properties.of(Material.METAL).strength(3.0F, 6F).requiresCorrectToolForDrops().sound(SoundType.METAL));
+        return new Block(Block.Properties.of(Material.STONE).strength(3.0F, 6F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE));
     });
 }
 

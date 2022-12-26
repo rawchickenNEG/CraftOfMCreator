@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beacon"
+    },
+    "%": {
+      "item": "craft_of_mcreator:mcreatorium_core_invincible"
+    },
+    "@": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_core_beyond",
+    "count": 2
+  }
+}

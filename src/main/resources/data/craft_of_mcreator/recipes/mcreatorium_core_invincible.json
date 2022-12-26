@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:obsidian"
+    },
+    "%": {
+      "item": "craft_of_mcreator:mcreatorium_core_rainbow"
+    },
+    "#": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_core_invincible",
+    "count": 2
+  }
+}

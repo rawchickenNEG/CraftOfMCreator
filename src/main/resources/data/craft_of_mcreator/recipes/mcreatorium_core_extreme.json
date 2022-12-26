@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:elytra"
+    },
+    "%": {
+      "item": "craft_of_mcreator:mcreatorium_core_ultimate"
+    },
+    "#": {
+      "item": "minecraft:end_crystal"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_core_extreme",
+    "count": 2
+  }
+}

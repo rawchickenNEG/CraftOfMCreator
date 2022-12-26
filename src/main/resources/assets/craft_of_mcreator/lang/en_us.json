@@ -1,0 +1,21 @@
+{
+  "item.craft_of_mcreator.mcreatorium_ingot": "MCreatorium Ingot",
+  "item.craft_of_mcreator.mcreatorium_block": "MCreatorium Block",
+  "item.craft_of_mcreator.mcreatorium_sword": "MCreatorium Sword",
+  "item.craft_of_mcreator.mcreatorium_axe": "MCreatorium Axe",
+  "item.craft_of_mcreator.mcreatorium_pickaxe": "MCreatorium Pickaxe",
+  "item.craft_of_mcreator.mcreatorium_hoe": "MCreatorium Hoe",
+  "item.craft_of_mcreator.mcreatorium_shovel": "MCreatorium Shovel",
+  "item.craft_of_mcreator.mcreatorium_helmet": "MCreatorium Helmet",
+  "item.craft_of_mcreator.mcreatorium_chestplate": "MCreatorium Chestplate",
+  "item.craft_of_mcreator.mcreatorium_leggings": "MCreatorium Leggings",
+  "item.craft_of_mcreator.mcreatorium_boots": "MCreatorium Boots",
+  "item.craft_of_mcreator.mcreatorium_ore": "MCreatorium Ore",
+  "item.craft_of_mcreator.raw_mcreatorium": "Raw MCreatorium",
+  "item.craft_of_mcreator.deepslate_mcreatorium_ore": "Deepslate MCreatorium Ingot",
+  "item.craft_of_mcreator.the_ultimate_mcreator_executor": "The Ultimate MCreator Executor",
+  "item.craft_of_mcreator.the_ultimate_mcreator_executor_dark": "The Ultimate MCreator Executor Dark",
+  "effect.craft_of_mcreator.mcreator_power": "MCreator Power!!!",
+  "effect.craft_of_mcreator.mcreator_rage": "MCreator Rage!!!",
+  "itemGroup.craft_of_mcreator": "Craft Of MCreator"
+}

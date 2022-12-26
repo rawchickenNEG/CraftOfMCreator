@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:nether_star"
+    },
+    "%": {
+      "item": "craft_of_mcreator:mcreatorium_core_super"
+    },
+    "#": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_core_ultimate",
+    "count": 2
+  }
+}

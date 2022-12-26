@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:conduit"
+    },
+    "%": {
+      "item": "craft_of_mcreator:mcreatorium_core_extreme"
+    },
+    "@": {
+      "item": "minecraft:axolotl_bucket"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_core_rainbow",
+    "count": 2
+  }
+}

@@ -7,6 +7,6 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
 
 public class ItemTier {
-    public static final Tier MCREATORIUM= new ForgeTier(5, 225, 10F, 6F, 15,
+    public static final Tier MCREATORIUM= new ForgeTier(5, 99999, 10F, 10F, 30,
             BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ItemRegistry.MCREATORIUM_INGOT.get()));
 }

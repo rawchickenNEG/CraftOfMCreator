@@ -10,7 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ArmorTier implements ArmorMaterial {
-    MCREATORIUM("mcreatorium", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+    MCREATORIUM("mcreatorium", 114, new int[]{6, 12, 16, 6}, 100, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 1.0F, () -> {
         return Ingredient.of(ItemRegistry.MCREATORIUM_INGOT.get());
     });
 

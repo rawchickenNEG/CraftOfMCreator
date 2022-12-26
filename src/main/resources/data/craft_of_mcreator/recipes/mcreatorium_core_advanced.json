@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:diamond"
+    },
+    "%": {
+      "item": "craft_of_mcreator:mcreatorium_core"
+    },
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_core_advanced",
+    "count": 2
+  }
+}

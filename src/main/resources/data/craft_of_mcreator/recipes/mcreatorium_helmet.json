@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "craft_of_mcreator:mcreatorium_ingot"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_helmet"
+  }
+}

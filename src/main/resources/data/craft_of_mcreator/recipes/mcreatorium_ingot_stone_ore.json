@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "craft_of_mcreator:mcreatorium_ore"
+  },
+  "result": "craft_of_mcreator:mcreatorium_ingot"
+}
