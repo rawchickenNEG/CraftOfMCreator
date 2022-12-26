@@ -15,10 +15,20 @@ public class ItemRegistry {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CraftOfMCreator.MOD_ID);
     public static final RegistryObject<Item> MCREATORIUM_BLOCK = ITEMS.register("mcreatorium_block", () -> new ItemNameBlockItem(BlockRegistry.MCREATORIUM_BLOCK.get(), defaultBuilder()));
+    public static final RegistryObject<Item> STEEL_BLOCK = ITEMS.register("steel_block", () -> new ItemNameBlockItem(BlockRegistry.STEEL_BLOCK.get(), defaultBuilder()));
+    public static final RegistryObject<Item> BRONZE_BLOCK = ITEMS.register("bronze_block", () -> new ItemNameBlockItem(BlockRegistry.BRONZE_BLOCK.get(), defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_ORE = ITEMS.register("mcreatorium_ore", () -> new ItemNameBlockItem(BlockRegistry.MCREATORIUM_ORE.get(), defaultBuilder()));
     public static final RegistryObject<Item> DEEPSLATE_MCREATORIUM_ORE = ITEMS.register("deepslate_mcreatorium_ore", () -> new ItemNameBlockItem(BlockRegistry.DEEPSLATE_MCREATORIUM_ORE.get(), defaultBuilder()));
+    public static final RegistryObject<Item> STEEL_ORE = ITEMS.register("steel_ore", () -> new ItemNameBlockItem(BlockRegistry.STEEL_ORE.get(), defaultBuilder()));
+    public static final RegistryObject<Item> DEEPSLATE_STEEL_ORE = ITEMS.register("deepslate_steel_ore", () -> new ItemNameBlockItem(BlockRegistry.DEEPSLATE_STEEL_ORE.get(), defaultBuilder()));
+    public static final RegistryObject<Item> BRONZE_ORE = ITEMS.register("bronze_ore", () -> new ItemNameBlockItem(BlockRegistry.BRONZE_ORE.get(), defaultBuilder()));
+    public static final RegistryObject<Item> DEEPSLATE_BRONZE_ORE = ITEMS.register("deepslate_bronze_ore", () -> new ItemNameBlockItem(BlockRegistry.DEEPSLATE_BRONZE_ORE.get(), defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_INGOT = ITEMS.register("mcreatorium_ingot", () -> new Item(defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_RAW = ITEMS.register("raw_mcreatorium", () -> new Item(defaultBuilder()));
+    public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", () -> new Item(defaultBuilder()));
+    public static final RegistryObject<Item> STEEL_RAW = ITEMS.register("raw_steel", () -> new Item(defaultBuilder()));
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot", () -> new Item(defaultBuilder()));
+    public static final RegistryObject<Item> BRONZE_RAW = ITEMS.register("raw_bronze", () -> new Item(defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_HELMET = ITEMS.register("mcreatorium_helmet", () -> new McreatoriumArmor(ArmorTier.MCREATORIUM, EquipmentSlot.HEAD, defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_CHESTPLATE = ITEMS.register("mcreatorium_chestplate", () -> new McreatoriumArmor(ArmorTier.MCREATORIUM, EquipmentSlot.CHEST, defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_LEGGINGS = ITEMS.register("mcreatorium_leggings", () -> new McreatoriumArmor(ArmorTier.MCREATORIUM, EquipmentSlot.LEGS, defaultBuilder()));

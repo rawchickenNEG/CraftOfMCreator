@@ -1,9 +1,26 @@
 {
-  "type": "minecraft:smelting",
-  "experience": 1,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "craft_of_mcreator:raw_mcreatorium"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "%@%",
+    "#$#"
+  ],
+  "key": {
+    "#": {
+      "item": "craft_of_mcreator:raw_mcreatorium"
+    },
+    "@": {
+      "item": "minecraft:nether_star"
+    },
+    "$": {
+      "item": "craft_of_mcreator:bronze_block"
+    },
+    "%": {
+      "item": "craft_of_mcreator:steel_block"
+    }
   },
-  "result": "craft_of_mcreator:mcreatorium_ingot"
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_ingot",
+    "count": 4
+  }
 }
