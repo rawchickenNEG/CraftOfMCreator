@@ -46,8 +46,8 @@ public class ItemRegistry {
     public static final RegistryObject<Item> MCREATORIUM_CORE_RAINBOW = ITEMS.register("mcreatorium_core_rainbow", () -> new Item(defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_CORE_INVINCIBLE = ITEMS.register("mcreatorium_core_invincible", () -> new Item(defaultBuilder()));
     public static final RegistryObject<Item> MCREATORIUM_CORE_BEYOND = ITEMS.register("mcreatorium_core_beyond", () -> new Item(defaultBuilder()));
-    public static final RegistryObject<Item> THE_ULTIMATE_MCREATOR_EXECUTOR = ITEMS.register("the_ultimate_mcreator_executor", () -> new McreatorExecutor(ItemTier.MCREATORIUM, 4, -2.4F, defaultBuilder()));
-    public static final RegistryObject<Item> THE_ULTIMATE_MCREATOR_EXECUTOR_DARK = ITEMS.register("the_ultimate_mcreator_executor_dark", () -> new McreatorExecutorDark(ItemTier.MCREATORIUM, 4, -2.4F, defaultBuilder()));
+    public static final RegistryObject<Item> THE_ULTIMATE_MCREATOR_EXECUTOR = ITEMS.register("the_ultimate_mcreator_executor", () -> new McreatorExecutor(ItemTier.MCREATORIUM, 114503, 0F, defaultBuilder().rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> THE_ULTIMATE_MCREATOR_EXECUTOR_DARK = ITEMS.register("the_ultimate_mcreator_executor_dark", () -> new McreatorExecutorDark(ItemTier.MCREATORIUM, 114503, 0F, defaultBuilder().rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> MCREATOR_LOGO = ITEMS.register("mcreator_logo", () -> new Item(new Item.Properties()));
 
     private static Item.Properties defaultBuilder() {
