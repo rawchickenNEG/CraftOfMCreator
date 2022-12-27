@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "%@%",
+    "#$#"
+  ],
+  "key": {
+    "#": {
+      "item": "craft_of_mcreator:mcreatorium_ingot"
+    },
+    "@": {
+      "item": "minecraft:elytra"
+    },
+    "$": {
+      "tag": "forge:storage_blocks/emerald"
+    },
+    "%": {
+      "tag": "forge:storage_blocks/netherite"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:mcreatorium_wing_core"
+  }
+}

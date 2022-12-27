@@ -1,13 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "# #",
+    "#@#",
     "###",
     "###"
   ],
   "key": {
     "#": {
       "item": "craft_of_mcreator:mcreatorium_ingot"
+    },
+    "@": {
+      "item": "craft_of_mcreator:mcreatorium_wing_core"
     }
   },
   "result": {
