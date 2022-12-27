@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "craft_of_mcreator:mcreatorium_sword"
+  },
+  "addition": {
+    "item": "craft_of_mcreator:mcreatorium_core_beyond"
+  },
+  "result": {
+    "item": "craft_of_mcreator:the_ultimate_mcreator_executor"
+  }
+}
