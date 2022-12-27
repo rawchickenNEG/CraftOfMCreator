@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:storage_blocks/bronze",
+    "#forge:storage_blocks/mcreatorium",
+    "#forge:storage_blocks/steel"
+  ]
+}

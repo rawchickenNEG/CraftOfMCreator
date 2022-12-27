@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "craft_of_mcreator:deepslate_mcreatorium_ore",
+    "craft_of_mcreator:mcreatorium_ore",
+    "craft_of_mcreator:mcreatorium_block"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "craft_of_mcreator:bronze_block"
+    }
+  },
+  "result": {
+    "item": "craft_of_mcreator:bronze_ingot",
+    "count": 9
+  }
+}

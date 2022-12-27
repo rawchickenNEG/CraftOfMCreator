@@ -3,7 +3,7 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "craft_of_mcreator:raw_mcreatorium"
+    "item": "craft_of_mcreator:raw_steel"
   },
-  "result": "craft_of_mcreator:mcreatorium_ingot"
+  "result": "craft_of_mcreator:steel_ingot"
 }

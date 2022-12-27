@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "craft_of_mcreator:raw_bronze"
+  },
+  "result": "craft_of_mcreator:bronze_ingot"
+}

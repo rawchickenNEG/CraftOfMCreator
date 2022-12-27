@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/bronze",
+    "#forge:ores/mcreatorium",
+    "#forge:ores/steel"
+  ]
+}

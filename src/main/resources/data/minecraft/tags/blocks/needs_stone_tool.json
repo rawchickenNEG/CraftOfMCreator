@@ -1,9 +1,6 @@
 {
-  "return": false,
+  "replace": false,
   "values": [
-    "craft_of_mcreator:deepslate_mcreatorium_ore",
-    "craft_of_mcreator:mcreatorium_ore",
-    "craft_of_mcreator:mcreatorium_block",
     "craft_of_mcreator:deepslate_steel_ore",
     "craft_of_mcreator:steel_ore",
     "craft_of_mcreator:steel_block",
