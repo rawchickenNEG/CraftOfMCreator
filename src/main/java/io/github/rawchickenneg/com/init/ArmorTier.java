@@ -10,11 +10,11 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ArmorTier implements ArmorMaterial {
-    MCREATORIUM("mcreatorium", 114, new int[]{6, 12, 16, 6}, 100, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 1.0F, () -> {
+    MCREATORIUM("mcreatorium", 99999, new int[]{6, 12, 16, 6}, 100, SoundEvents.ARMOR_EQUIP_NETHERITE, 10.0F, 1.0F, () -> {
         return Ingredient.of(ItemRegistry.MCREATORIUM_INGOT.get());
     });
 
-    private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
+    private static final int[] HEALTH_PER_SLOT = new int[]{1, 1, 1, 1};
     private final String name;
     private final int durabilityMultiplier;
     private final int[] slotProtections;
