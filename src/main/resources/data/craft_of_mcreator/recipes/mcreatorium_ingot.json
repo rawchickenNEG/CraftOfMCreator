@@ -13,10 +13,10 @@
       "item": "minecraft:nether_star"
     },
     "$": {
-      "item": "craft_of_mcreator:bronze_block"
+      "tag": "forge:storage_blocks/bronze"
     },
     "%": {
-      "item": "craft_of_mcreator:steel_block"
+      "tag": "forge:storage_blocks/steel"
     }
   },
   "result": {
